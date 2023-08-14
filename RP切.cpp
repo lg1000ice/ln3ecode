@@ -41,11 +41,11 @@ int main()
         cin>>lk2;
         if(xingyunnushen<=2)
         {
-            lk1=(rand()*100+lk1)*100%3001+10000;
+            lk2=(rand()*100+lk2)*100%3001+10000;
         }
         else
         {
-            lk1=(rand()*100+lk1)*100%3001+2678;
+            lk2=(rand()*100+lk2)*100%3001+2678;
         }
         cout<<"RP切！对"<<p1name<<"造成了"<<lk2<<"点伤害！"<<endl;
         rp1-=lk2;
