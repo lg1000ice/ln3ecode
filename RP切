@@ -1,9 +1,11 @@
 #include <iostream>
 #include<stdlib.h>
 #include<time.h>
+#include<string>
 using namespace std;
 int rp1,rp2,lk1,lk2,xingyunnushen;
 char p1name[8888],p2name[8888];
+string a;
 int main()
 {
     srand(time(NULL));
@@ -53,5 +55,7 @@ int main()
             break;
         }
     }
+    cout<<"请按任意键加enter结束游戏";
+    cin>>a;
     return 0;
  }
