@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 #include<stdlib.h>
 #include<time.h>
 #include<string>
@@ -9,17 +9,17 @@ string a;
 int main()
 {
     srand(time(NULL));
-    cout<<"ÇëÊäÈëÍæ¼Ò1µÄêÇ³Æ";
+    cout<<"è¯·è¾“å…¥çŽ©å®¶1çš„æ˜µç§°";
     cin>>p1name;
-    cout<<"ÇëÊäÈëÍæ¼Ò2µÄêÇ³Æ";
+    cout<<"è¯·è¾“å…¥çŽ©å®¶2çš„æ˜µç§°";
     cin>>p2name;
     rp1=rand()%20000+30000;
     rp2=rand()%20000+30000;
     while(1)
     {
-        cout<<p1name<<"µÄrpÖµÎª"<<rp1<<endl;
-        cout<<p2name<<"µÄrpÖµÎª"<<rp2<<endl;
-        cout<<"ÇëÊäÈë"<<p1name<<"µÄÐÒÔËÖµ"<<endl;
+        cout<<p1name<<"çš„rpå€¼ä¸º"<<rp1<<endl;
+        cout<<p2name<<"çš„rpå€¼ä¸º"<<rp2<<endl;
+        cout<<"è¯·è¾“å…¥"<<p1name<<"çš„å¹¸è¿å€¼"<<endl;
         cin>>lk1;
         xingyunnushen=rand()%10;
         if(xingyunnushen<=2)
@@ -30,14 +30,14 @@ int main()
         {
             lk1=(rand()*100+lk1)*100%3001+2678;
         }
-        cout<<"RPÇÐ£¡¶Ô"<<p2name<<"Ôì³ÉÁË"<<lk1<<"µãÉËº¦£¡"<<endl;
+        cout<<"RPåˆ‡ï¼å¯¹"<<p2name<<"é€ æˆäº†"<<lk1<<"ç‚¹ä¼¤å®³ï¼"<<endl;
         rp2-=lk1;
         if(rp2<=0)
         {
-            cout<<p1name<<"Ê¤Àû£¡³ÉÎªÁËÐÂµÄRPÖ®Íõ£¡"<<endl;
+            cout<<p1name<<"èƒœåˆ©ï¼æˆä¸ºäº†æ–°çš„RPä¹‹çŽ‹ï¼"<<endl;
             break;
         }
-        cout<<"ÇëÊäÈë"<<p2name<<"µÄÐÒÔËÖµ"<<endl;
+        cout<<"è¯·è¾“å…¥"<<p2name<<"çš„å¹¸è¿å€¼"<<endl;
         cin>>lk2;
         if(xingyunnushen<=2)
         {
@@ -47,15 +47,15 @@ int main()
         {
             lk1=(rand()*100+lk1)*100%3001+2678;
         }
-        cout<<"RPÇÐ£¡¶Ô"<<p1name<<"Ôì³ÉÁË"<<lk2<<"µãÉËº¦£¡"<<endl;
+        cout<<"RPåˆ‡ï¼å¯¹"<<p1name<<"é€ æˆäº†"<<lk2<<"ç‚¹ä¼¤å®³ï¼"<<endl;
         rp1-=lk2;
         if(rp1<=0)
         {
-            cout<<p2name<<"Ê¤Àû£¡³ÉÎªÁËÐÂµÄRPÖ®Íõ£¡"<<endl;
+            cout<<p2name<<"èƒœåˆ©ï¼æˆä¸ºäº†æ–°çš„RPä¹‹çŽ‹ï¼"<<endl;
             break;
         }
     }
-    cout<<"Çë°´ÈÎÒâ¼ü¼Óenter½áÊøÓÎÏ·";
+    cout<<"è¯·æŒ‰ä»»æ„é”®åŠ enterç»“æŸæ¸¸æˆ";
     cin>>a;
     return 0;
  }
