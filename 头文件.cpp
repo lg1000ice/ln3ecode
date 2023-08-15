@@ -1,11 +1,17 @@
 #include<iostream>
 #include<math.h>
 #include<map>
+#include<complex>
+#include<complex.h>
+#include<list>
+#include<tgmath.h>
 #include<vector>
 #include<stdlib.h>
 #include<time.h>
 #include<string>
 #include<string.h>
+#include<sstream>
+#include<streambuf>
 #include<queue>
 #include<stack>
 #include<stdio.h>
@@ -13,10 +19,18 @@
 #include<memory>
 #include<iomanip>
 #include<algorithm>
+#include<iosfwd>
+#include<bitset>
 #include<limits.h>
 #include<ctype.h>
+#include<set>
+#include<istream>
+#include<ostream>
+#include<windows.h>
+#include<new>
+#include<utility>
 using namespace std;
 int main()
 {
-	cout<<1;
+    cout<<1;
 }
