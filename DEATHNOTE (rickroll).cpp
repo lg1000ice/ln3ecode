@@ -9,21 +9,21 @@ int main()
 	cout<<"Who do you want to kill?"<<endl;
 	cout<<"Name:";
 	cin>>a;
-	cout<<"Are you sure?";
+	cout<<"Are you sure?(YES/NO)";
 	cin>>a;
 	if(a=="NO")
 	{
 		cout<<"You are kind!";
 		return 0;
 	}
-	cout<<"Are you really sure?";
+	cout<<"Are you really sure?(YES/NO)";
 	cin>>a;
 	if(a=="NO")
 	{
 		cout<<"You are kind!";
 		return 0;
 	}
-	cout<<"Are you really really sure?";
+	cout<<"Are you really really sure?(YES/NO)";
 	cin>>a;
 	if(a=="NO")
 	{
